@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.sunny{
+    /* background: rgb(0, 162, 255); */
+    /* width: 00px; */
+    height: 700px;
+    margin: auto;
+    background: url("image-header.jpg");
+    background-size: cover;
+    
+}
+h3{
+    color: cornsilk;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+    color: cornsilk;
+    list-style: none;
+    margin-left: 500px;
+}
+ul li a{
+    color: cornsilk;
+    text-decoration: none;
+    list-style: none;
+}
+button{
+    background: rgba(95, 187, 240, 0.534);
+    border: none;
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+    color: cornsilk;
+}
+h1{
+    color: cornsilk;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sun img{
+    margin-left: 650px;
+}
+.brand{
+  display: flex;
+}
+.bran{
+    width: 50%;
+    height: 50%;
+}
+.clients{
+    height: 600px;
+    /* display: flex; */
+}
+.client{
+    display: flex;
+    gap: 450px;
+}
+h2{
+    text-align: center;
+    color: gray;
+    padding-top: 50px;
+}
+p{
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+}
+span{
+    margin-left: 100px;
+    padding-top: 80px;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+a{
+    margin-left: 150px;
+}
+.bran5 img{
+    width: 664px;
+    height: 554px;
+}
+.bran3 img{
+    width: 665px;
+    height: 554px;
+}
+.bran4 img{
+    height: 554px;
+    width: 720px;
+} 
+.emily img{
+    margin-left: 30px;
+    /* border-radius: 50px; */
+}
+.jennie{
+    margin-right: 40px;
+}
+.client img{
+    border-radius: 150px;
+}
+h5{
+    color:gray
+}
+.pictures{
+    display: flex;
+    width: 100px;
+    height: 200px;
+}
+.pictures img{
+    width: 350px;
+}
+.footer{
+    background: rgb(66, 150, 91);
+    width: 1400px;
+    height: 220px;
+}
+.middle ol{
+    margin-left: 200px ;
+    margin-top: 70px;
+    color: cornsilk;
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+h4{
+    color: rgb(44, 97, 42);
+    margin-left: 600px;
+    margin-top: 230px;
+    font-size: 30px;
+    list-style: none;
+    font-weight: bolder;
+}
+ol li a{
+    color: rgb(44, 97, 42);
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.middle a:hover{
+    background: cornsilk;
+}
+.bottom ol{
+    color: rgb(44, 97, 42);
+    display: flex;
+    list-style: none;
+    /* display: flex; */
+    margin-left: 230px;
+    gap: 5px;
+}
+.bottom a:hover{
+    background-color: cornsilk;
+}
+.bran3{
+    background-image: url(image-graphic-design.jpg);
+    width: 665px;
+    height: 500px;
+}
+.bran3 p{
+    margin-top: 220px;
+    
+}
+.bran4 p{
+    margin-top: 220px; 
+}
+.bran4{
+    background-image: url(image-photography.jpg);
+    width: 50%;
+    height: 500px;
+}
+.bran3 span{
+    color: rgb(9, 32, 8);
+    margin-top: 210px;
+    text-align: center;
+}
+.bran4 span{
+    color: rgb(21, 17, 53);
+    text-align: center;
+    margin-top: 210px
+}
+.bran3 p{
+    color: rgb(9, 32, 8);
+}
+.bran4 p{
+    color: rgb(21, 17, 53);
+}
+.bran span{
+    padding-top: 200px;
+}
+.bran1 img{
+    width: 688px;
+}
